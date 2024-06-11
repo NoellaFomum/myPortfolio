@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/contact.css">
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-    <script src="js/script.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contact.css" />
+
     <title>Contact Form</title>
-</head>
-<body >
+  </head>
+  <body>
     <center>
-    <h1 class="let-us-contact-you">Contact Form</h1>
+      <h1 class="let-us-contact-you">Contact Form</h1>
     </center>
-  <section class="hero">
-     
-    <form class="form" action="#">
+    <section class="hero">
+      <form class="form" action="#">
         <section class="row">
-            <section class="input-group">
-                <input type="text" id="idFName" required>
-                <label for="idFName">First Name</label>
-            </section>
-            <section class="input-group">
-                <input type="text" id="idLName" required>
-                <label for="idLName">Last Name</label>
-            </section>
+          <section class="input-group">
+            <input type="text" id="idFName" required />
+            <label for="idFName">First Name</label>
+          </section>
+          <section class="input-group">
+            <input type="text" id="idLName" required />
+            <label for="idLName">Last Name</label>
+          </section>
         </section>
-       
+
         <section class="input-group">
-            <input type="text" id="idNumber" required>
-           <label for="idNumber">Phone No.</label>
-        </section>
-        <section class="input-group">
-            <input type="text" id="idEmail" required>
-           <label for="idEmail">Email Id</label>
+          <input type="text" id="idNumber" required />
+          <label for="idNumber">Phone No.</label>
         </section>
         <section class="input-group">
-            <textarea id="idMessage" row="8" required></textarea>
-           <label for="idMessage">Your Message</label>
+          <input type="text" id="idEmail" required />
+          <label for="idEmail">Email Id</label>
         </section>
-        <button type="submit" id="sendEmailButton">Get in Touch</button>
-    </form>
-  </section>
-</body>
+        <section class="input-group">
+          <textarea id="idMessage" row="8" required></textarea>
+          <label for="idMessage">Your Message</label>
+        </section>
+        <button id="sendEmailButton">Get in Touch</button>
+      </form>
+    </section>
+  </body>
+  <script src="js/script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </html>
